@@ -1,8 +1,25 @@
 aid: keychain
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keychain.png
 name: Keychain
-description: Keychain is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Keychain is an AI-powered operating system and manufacturing network for
+  the consumer packaged goods (CPG) industry. The platform connects brands, retailers,
+  and private-label buyers with vetted contract manufacturers and co-manufacturers,
+  helping teams discover production partners, source ingredients and packaging, benchmark
+  supplier capabilities, and bring new products to market faster. Keychain aggregates
+  data across the fragmented CPG supply chain into a searchable network so brands can
+  find who makes what and manufacturers can surface available capacity. The company
+  is headquartered in New York and is backed by Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/keychain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- CPG
+- Consumer Packaged Goods
+- Manufacturing
+- Supply Chain
+- Sourcing
+- Marketplace
+- Private Label
+- Retail
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/keychain-domain-security.yml
+- type: Website
+  url: https://www.keychain.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
